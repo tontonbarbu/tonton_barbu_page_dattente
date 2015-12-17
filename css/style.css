@@ -1,10 +1,15 @@
+
+@import url("//hello.myfonts.net/count/2df42d");
+@font-face {font-family: 'Larsseit-ExtraBold';src: url('../webfonts/2DF42D_3_0.eot');src: url('../webfonts/2DF42D_3_0.eot?#iefix') format('embedded-opentype'),url('../webfonts/2DF42D_3_0.woff2') format('woff2'),url('../webfonts/2DF42D_3_0.woff') format('woff'),url('../webfonts/2DF42D_3_0.ttf') format('truetype');}
+@font-face {font-family: 'Larsseit-Thin';src: url('../webfonts/2DF42D_A_0.eot');src: url('../webfonts/2DF42D_A_0.eot?#iefix') format('embedded-opentype'),url('../webfonts/2DF42D_A_0.woff2') format('woff2'),url('../webfonts/2DF42D_A_0.woff') format('woff'),url('../webfonts/2DF42D_A_0.ttf') format('truetype');}
+
+
 html{height: 100%}
-body{background-image: url(../images/eatubackground.jpg); background-repeat: no-repeat; background-size: cover; height: 100%; padding: 0px; margin: 0px; color: rgba(0, 0, 0, 1); font-size: 10pt; font-family: Larsseit; font-weight:100}
-h1{color: rgba(255, 255, 255, 1);font-size: 70px; font-family: DelgadoSans;font-weight: 100; letter-spacing: 30px; margin: 0px}
-h2{color: #595656; font-size: 20px; font-family: DelgadoSans; font-weight: 100; line-height: 40px; letter-spacing: 5px; margin: 0px}
-p{color: rgba(255, 255, 255, 1); font-size: 9pt; font-family: Larsseit; font-weight: 100;line-height: 20px; margin: 0px}
-address{color: rgba(255, 255, 255, 1); font-size: 10pt; font-family: Larsseit; font-weight: 100;line-height: 25px; margin: 0px}
-a:link {color: rgba(255, 255, 255, 1); font-size: 10pt; font-family: Larsseit; font-weight: 500;text-decoration: underline; margin-left: 5px; margin-right: 5px}
+body{background-image: url(../images/eatubackground.jpg); background-repeat: no-repeat; background-size: cover; height: 100%; padding: 0px; margin: 0px; color: rgba(0, 0, 0, 1); font-size: 10pt; font-family: Larsseit-Thin}
+h1{color: #595656; font-size: 20px; font-family: Larsseit-ExtraBold; line-height: 40px; letter-spacing: 5px; margin: 0px}
+p{color: rgba(255, 255, 255, 1);line-height: 20px; margin: 0px}
+address{color: rgba(255, 255, 255, 1); font-size: 10pt; line-height: 25px; margin: 0px}
+a:link {color: rgba(255, 255, 255, 1); font-family: Larsseit-ExtraBold; text-decoration: underline; margin-left: 5px; margin-right: 5px}
 a:visited {color: rgba(255, 255, 255, 1);text-decoration: none}
 a:hover {color: #595656;text-decoration: none}
 a:active {color: #595656;text-decoration: none}
